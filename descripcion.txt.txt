@@ -1,0 +1,1 @@
+Página web interactiva que permite a los usuarios seleccionar y obtener información detallada sobre películas.
