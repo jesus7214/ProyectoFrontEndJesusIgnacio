@@ -1,0 +1,27 @@
+
+.contenedorRaiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/assets/imagenes/fondoLog.jpg'); 
+  }
+  
+  .login-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #0e0d0d;
+    border-radius: 5px;
+    background-color: #d4d5a7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h2 {
+    text-align: center;
+  } 
+  
+  
+  .olvidadoContraseña{
+      display: flex; 
+      justify-content: center;;
+  }

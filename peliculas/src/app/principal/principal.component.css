@@ -1,0 +1,33 @@
+.w {
+  width: 90px;
+  padding-right: 5px;
+}
+
+.nav-item,
+.navbar-brand, .botInicio {
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.botInicio {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar.bg-body-secondary {
+  
+    height: 73px;
+  }
+  .fondoFilmNow{
+    background-color: yellow;
+  }
+
+  .fondoPpal{
+    background-color: blue;
+    /* background-image: url('/assets/imagenes/fondoPpal.png');  */
+
+  }
