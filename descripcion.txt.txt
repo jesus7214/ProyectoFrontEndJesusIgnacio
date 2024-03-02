@@ -1,0 +1,5 @@
+Integrante: Jesus Ignacio Sanchez Delgado
+Grupo: 239-5C Noche (Desarrollo Front End)
+
+
+Página web interactiva que permite a los usuarios seleccionar y obtener información detallada sobre películas.
