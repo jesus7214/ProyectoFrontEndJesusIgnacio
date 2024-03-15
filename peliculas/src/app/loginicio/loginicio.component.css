@@ -1,12 +1,21 @@
+.contenedorBody{
+  background-image: url('/assets/imagenes/fondoLog.jpg'); 
+
+}
+
 
 .contenedorRaiz {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('/assets/imagenes/fondoLog.jpg'); 
+   
   }
   
+  .nav-item,
+.navbar-brand, .botInicio {
+  font-weight: bolder;
+}
   .login-container {
     width: 300px;
     padding: 20px;
@@ -25,3 +34,40 @@
       display: flex; 
       justify-content: center;;
   }
+
+/*  */
+
+.w {
+  width: 90px;
+  padding-right: 5px;
+}
+
+
+.navbar-brand{
+  border: 0;
+background-color: transparent;
+}
+
+
+.fondoFilmNow{
+ 
+    font-weight: bolder;
+    height: 73px;
+    font-size: 21px;
+    padding-left: 12px;
+    color: rgb(251, 158, 27);
+    
+  } 
+.registro{
+ cursor: pointer;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 90px;
+  background-color: rgb(171, 207, 226);
+
+}
+
+ .btn-primary{
+
+  background-color: rgb(55, 142, 119)!important;
+} 

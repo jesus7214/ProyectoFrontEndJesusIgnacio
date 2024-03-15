@@ -33,15 +33,27 @@
 
   <div class="contenedorRaiz">
     <div class="login-container">
-      <h2 class="mb-4">Iniciar Sesión</h2>
+      <h2 class="mb-4">Registro</h2>
+
       <form>
         <div class="form-group">
-          <label for="username">Usuario:</label>
+          <label for="username">Correo:</label>
           <input
             type="email"
             class="form-control"
             id="username"
-            placeholder="Ingrese su usuario"
+            placeholder="Ingrese su Correo"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="Ingrese su Nombre"
             required
           />
         </div>
@@ -55,22 +67,11 @@
             required
           />
         </div>
-        <button type="submit" class="btn btn-primary btn-block" (click)="redirigir_usuario()"> 
-          Iniciar Sesión
+        <button type="submit" class="btn btn-primary btn-block">
+          Registrar
         </button>
-     
       </form>
-
-      <br />
-
-      <a href=""><span class="olvidadoContraseña">¿Has olvidado tu contraseña?</span>
-      </a>
-    
-      <button class="registro" (click)="redirigir_registro()" > Registro</button>
-       
-
     </div>
-   
   </div>
   <footer class="bg-dark text-light py-4">
     <div class="container">

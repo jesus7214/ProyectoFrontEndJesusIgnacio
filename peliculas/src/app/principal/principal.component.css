@@ -1,33 +1,141 @@
+.contenedorBody {
+  background-image: url(/assets/imagenes/blackcolor2.jpg);
+}
+
 .w {
-  width: 90px;
+  width: 80px;
   padding-right: 5px;
 }
 
 .nav-item,
-.navbar-brand, .botInicio {
+.navbar-brand,
+.botInicio {
+  font-size: 20px;
   font-weight: bolder;
+  color: rgb(238, 121, 38);
+  text-shadow: 3px 3px 3px red;
+  padding-top: 20px;
+}
+
+.collapse .nav-item .nav-link {
+  color: rgb(238, 121, 38);
+  text-shadow: 3px 3px 3px red;
+  font-size: 20px;
 }
 
 .nav-item {
   padding: 20px;
 }
 
-.botInicio {
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px #888888;
-    padding-left: 10px;
-    padding-right: 10px;
+.botIngreso {
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.navbar.bg-body-secondary {
-  
-    height: 73px;
-  }
-  .fondoFilmNow{
-    background-color: yellow;
-  }
 
-  .fondoPpal{
-    background-color: blue;
-    /* background-image: url('/assets/imagenes/fondoPpal.png');  */
+.bg-body-secondary {
+  background-image: url("/assets/imagenes/baner2.jpg");
+  height: 90px;
+}
 
-  }
+.navbar-brand {
+  border: 0;
+  background-color: transparent;
+}
+.peliculaMes {
+  display: grid;
+  grid-template-columns: 40% 35% 25%;
+  height: 650px;
+}
+.avengers,
+.trailerVideo {
+  width: 400px;
+  border-radius: 50px;
+  margin: auto;
+}
+.avengers:hover {
+  cursor: pointer;
+}
+
+.mes {
+  color: rgb(247, 247, 246);
+  padding: 20px;
+}
+.spanAvengers {
+  padding-top: 20px;
+  /* display: flex;
+  justify-content: center; */
+}
+.mes h3,
+.mes h4,
+.mes h5 {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.mes p {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+}
+.mes h3,
+.mes h5 {
+  margin-bottom: 30px;
+}
+.reparto {
+  display: flex;
+  justify-content: space-between;
+}
+.d-block {
+  width: 70px;
+}
+/*  */
+
+.w-100 {
+  width: 400px !important;
+  height: 600px;
+  border-radius: 50px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+p {
+  color: aliceblue;
+  padding: 10px;
+  font-size: 23px;
+}
+
+h4,
+h3 {
+  color: rgb(38, 91, 238);
+  text-shadow: 2px 2px 3px rgb(13, 0, 255);
+}
+.alquilar{
+ padding-top: 70px;
+} 
+
+.estrellas {
+  width: 150px;
+  height: 25px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.botonAlquilar {
+  border-radius: 5px;
+  background-color: rgb(217, 144, 28);
+}
+.calificacion {
+  color: aliceblue;
+  font-size: 20px;
+   padding-top: 30px;
+}
+
+.peliPopulares {
+  padding-left: 25px;
+}
+/* .carrusel{
+  background-color: aqua;
+} */
+.botIngreso{
+  background-color: rgb(213, 204, 125);
+}

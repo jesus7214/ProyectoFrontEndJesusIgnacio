@@ -1,0 +1,50 @@
+/* Estilos barra navegacion */
+
+.w {
+  width: 80px;
+  padding-right: 5px;
+}
+
+.nav-item,
+.navbar-brand,
+.botInicio {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(238, 121, 38);
+  text-shadow: 3px 3px 3px red;
+  padding-top: 20px;
+}
+
+.collapse .nav-item .nav-link {
+  color: rgb(238, 121, 38);
+  text-shadow: 3px 3px 3px red;
+  font-size: 20px;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.bg-body-secondary {
+  background-image: url("/assets/imagenes/baner2.jpg");
+  height: 90px;
+}
+
+.navbar-brand {
+  border: 0;
+  background-color: transparent;
+}
+/* Termina Estilos barra navegacion */
+
+.fondoUsuario{
+  background-image: url("/assets/imagenes/tv.jpg");
+  /* height: 2000px; */
+  min-height: 100vh;
+}
+.peliculasAlquiladas{
+color: aliceblue;
+}
+.perfil{
+  padding-left: 20px;
+  padding-top: 20px;
+}
